@@ -15,7 +15,7 @@ def get_requirements(rfile):
 
 
 setup(
-    name="guillotina-simpleapp",
+    name="guillotina-simpleserver",
     version="1.0.0",
     description="Really simple server on top of guillotina",
     long_description=" ",
@@ -30,7 +30,7 @@ setup(
         "Programming Language :: Python :: 3.7",
         "Topic :: Software Development :: Libraries :: Python Modules",
     ],
-    url="http://github.com/lferran/guillotina-simpleapp.git",
+    url="http://github.com/lferran/guillotina-simpleserver.git",
     license="BSD",
     zip_safe=True,
     include_package_data=True,
