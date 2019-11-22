@@ -18,7 +18,7 @@ pip install -e .
 g -c config.json
 ```
 
-And then you already have the new service available:
+And then you already have the new `GET /@double/{value}` service available:
 
 ``` shell
 curl -XGET "http://localhost:8080/@double/3"                               ~
